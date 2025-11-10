@@ -6,7 +6,7 @@
 #    By: aakourya <aakourya@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/11/08 09:34:37 by aakourya          #+#    #+#              #
-#    Updated: 2025/11/10 08:24:31 by aakourya         ###   ########.fr        #
+#    Updated: 2025/11/10 19:51:13 by aakourya         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ RM		= rm -f
 
 NAME = libftprintf.a
 
-SRC = ft_printf.c
+SRC = ft_printf.c ft_putstr.c
 
 OBJ = $(SRC:.c=.o)
 

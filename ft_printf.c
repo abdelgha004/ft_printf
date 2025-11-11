@@ -6,7 +6,7 @@
 /*   By: aakourya <aakourya@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/08 09:58:37 by aakourya          #+#    #+#             */
-/*   Updated: 2025/11/11 10:24:46 by aakourya         ###   ########.fr       */
+/*   Updated: 2025/11/11 14:46:20 by aakourya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ static int	ft_putarg(char C, va_list *args)
 	else if (C == 'd' || C == 'i')
 		return (ft_putnbr(va_arg(*args, int)));
 	else if (C == 'u')
-		return (ft_putunsign(va_arg(*args, unsigned int)));
+		return (ft_putunsigned(va_arg(*args, unsigned int)));
 	else if (C == 'X' || C == 'x')
 		return (ft_puthex(va_arg(*args, unsigned int), C));
 	else if (C == '%')

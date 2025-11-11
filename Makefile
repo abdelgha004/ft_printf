@@ -6,7 +6,7 @@
 #    By: aakourya <aakourya@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/11/08 09:34:37 by aakourya          #+#    #+#              #
-#    Updated: 2025/11/11 10:26:29 by aakourya         ###   ########.fr        #
+#    Updated: 2025/11/11 14:48:13 by aakourya         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ RM		= rm -f
 
 NAME = libftprintf.a
 
-SRC = ft_printf.c ft_putstr.c ft_putnbr.c ft_putunsign.c ft_putptr.c ft_puthex.c
+SRC = ft_printf.c ft_putstr.c ft_putnbr.c ft_putunsigned.c ft_putptr.c ft_puthex.c
 
 OBJ = $(SRC:.c=.o)
 
